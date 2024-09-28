@@ -1,15 +1,24 @@
-h1 {
+h1.introTitle {
     color: rgb(10, 24, 61);
+    text-align: center;
+}
+h1#menuTitle{
+    color: rgb(0, 110, 255);
     text-align: center;
 }
 .topnav {
     background-color: #333;
     overflow: hidden;
 }
-
+#green {
+    background-color: #05ff16;
+}
+/* #blue {
+    background-color: blue;
+} */
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
+    float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
