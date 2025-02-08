@@ -2,8 +2,16 @@ h1.introTitle {
     color: rgb(10, 24, 61);
     text-align: center;
 }
+h1.sectionTitle {
+    color: rgb(10, 24, 61);
+    background:rgb(140, 158, 182);
+    text-align: center;
+}
+.CVTitle{
+    background:rgb(140, 158, 182);
+}
 h1#menuTitle{
-    color: rgb(0, 110, 255);
+    color: rgb(10, 24, 61);
     text-align: center;
 }
 .topnav {
@@ -43,4 +51,48 @@ img {
     width: 20em;
     
 
+}
+.carousel {
+    position: fixed;
+    width: 80%;
+    max-width: 600px;
+    overflow: clip;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%;
+    transition: opacity 0.5s ease;
+}
+
+.carousel-item img {
+    width: 100%;
+    display: block;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
 }
